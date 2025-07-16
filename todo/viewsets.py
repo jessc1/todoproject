@@ -1,11 +1,11 @@
-from rest_framework.permissions import AllowAny
+from rest_framework.permissions import IsAuthenticated
 from rest_framework import viewsets
 from todo.serializers import UsersSerializer
 from todo.models import User
 
 class UsersViewSet(viewsets.ModelViewSet):
     http_method_names = ('patch', 'get')    
-    permission_classes = [AllowAny]
+    permission_classes = [IsAuthenticated]
     serializer_class = UsersSerializer
 
     def get_queryset(self):
