@@ -31,6 +31,7 @@ class TestAuthenticationViewSet:
     def test_register(self, client):
         data = {
             "username": "usertest",
+            "email":"user@email.com",
             "password": "test1234"
         }
         response = client.post(self.endpoint + "register/", data)

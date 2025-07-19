@@ -8,4 +8,4 @@ class RegisterSerializer(UsersSerializer):
         fields = ['id', 'username','password']
 
     def create(self, validated_data):
-        return User.objects.create(**validated_data)
+        return User.objects.create_user(**validated_data)
