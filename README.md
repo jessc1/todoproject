@@ -11,7 +11,7 @@ utilizei o framework django e django rest framework para o desenvolvimento pois 
 * Tasks List: http://localhost:8000/api/tasks/ http methods: post, put, delete
 * Task detail: http://localhost:8000/api/tasks/id
 * Filter task: http://localhost:8000/api/tasks/?search=task
-* register um user in the frontend http://localhost:3000/register/
+* register um user in the frontend http://localhost:3000/register/ (fiz somente essa funcionalidade no front, pois só comecei depois que terminei o back, ontem.)
 
 commands:
 
