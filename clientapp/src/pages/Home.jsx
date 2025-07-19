@@ -6,6 +6,6 @@ function Home() {
             <h1>Profile</h1>
                 <p>Welcomes</p>
         </div>
-    )
+    );
 }
 export default Home;

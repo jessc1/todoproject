@@ -41,8 +41,7 @@ navigate("/")
   };
 
   return (
-    <Form
-      id="registration-form"
+    <Form id="registration-form"
       className="border p-4 rounded"
       noValidate
       validated={validated}
