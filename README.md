@@ -1,4 +1,5 @@
 Todo List API
+
 utilizei o framework django e django rest framework para o desenvolvimento pois é uma arquitetura monolítica na qual posso integrar todos os components em uma aplicação.
 
 ## Endpoints:
